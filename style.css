@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(85, 83, 83);
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    height: 150px;
+}
+p{
+    font-size: 5px;
+}
+i{
+    font-size: 20px;
+    padding-left: 2px;
+    margin-top: 0.5px;
+   
+}
+::placeholder{
+    color: rgb(255, 255, 255);
+}
+.container{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 1;
+}
+button{
+    background-color: transparent;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.titulo-principal{
+color: rgb(0, 0, 0);
+font-family: 'Poppins', sans-serif;
+}
+.icone{
+width: 50px;
+height: 50px;
+margin-top: 20px;
+margin-left: 5px;
+}
+.lupa{
+    width: 90px;
+    height: 50px;
+    margin-top: -17px;
+    margin-left: 5px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    color: white;
+    border-color: bisque;
+
+}
+.input-1{
+    display: flex;
+    height: 50px;
+    border-radius: 5px 15px  5px;
+    margin-top:-20px ;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 500px;
+ 
+}
+.input-tarefas{
+    height: 45px;
+    border-radius: 5px 15px 5px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 221, 221);
+    border: none;
+}
+
+.lixeira{
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-lixeira{
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+   border-radius: 10px;
+    
+}
+.btn-leixeira radio{
+    width: 20px;
+
+}
+.btn-lixeira i{
+  margin-top: 15px;
+}
+
+.btn-lixeira i:hover{
+    transform: scale(1.5);
+    transition: 1s;
+  }
+
+.div-tarefas {
+display: flex;
+max-width: 500px;
+margin: 0 auto;
+width: 100%;
+margin-top: 50px;
+
+}
+.div-tarefas input{
+    display: flex;
+    width: 500px;
+}
+.div-tarefas button{
+    margin-left: 10px;
+    
+}
+
+
+.concluido{
+   text-align: center;
+   border: 1px;
+   max-width: 220px;
+   color: rgb(246, 246, 246);
+   border-radius: 10px;
+   background-color: rgb(3, 3, 3);
+   -webkit-box-shadow: 10px 10px 49px 0px rgba(255,255,255,1);
+   -moz-box-shadow: 10px 10px 49px 0px rgba(255,255,255,1);
+   box-shadow: 10px 10px 49px 0px rgba(255,255,255,1);
+
+}
+.concluido-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -280px;
+    margin-right: 25px;
+    animation-name: tarefa;
+    animation: tarefa 1s linear reverse;
+   
+   
+  
+}
+.concluido i{
+   margin: 0 5px auto;
+   margin-bottom: 50px;
+;
+}
+.concluido i:hover{
+    transform: scale(1.2);
+    transition: 1s;
+  
+}
+
+@keyframes tarefa{
+   
+    to{
+        transform: scale(0.5);
+        margin-right: -500px;
+        transition: 1s;
+    }
+
+    
+}
+.titulos{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    width: 100%;
+ 
+   
+}
+#sino1{
+    margin-top: -2px;
+    font-size: 18px;
+}
+#sino{
+    margin-top: -2px;
+}
+#sino1{
+    margin-right: -25px;
+}
+
+.data{
+    display: flex; 
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 1;
+    border-style: outset;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px 3px 5px;
+    margin-top:15px ;
+    margin-bottom: -40px;
+    border-top: none;
+    border-left: none;
+}
+.data h1{
+    display: flex;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.data h1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
